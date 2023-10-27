@@ -1,6 +1,10 @@
 {
   "extends": "./tsconfig.app.json",
-  "exclude": [],
+  "include": [
+    "src/**/*.ts", // 包含 TypeScript 文件
+    "src/**/*.tsx", // 包含 TypeScript 文件
+    "src/**/*.vue" // 包含 Vue 单文件组件
+  ],
   "compilerOptions": {
     "composite": true,
     "lib": [],

@@ -15,6 +15,8 @@ module.exports = {
   },
   rules: {
     // 自定义自己的eslint规则
-    '@typescript-eslint/no-unused-vars': 'off'
+    '@typescript-eslint/no-unused-vars': 'off',
+    'vue/multi-word-component-names': 'off',
+    'prettier/prettier': ['error', { endOfLine: 'auto' }] // 使用快捷建立单文件的时候格式化报错
   }
 }
